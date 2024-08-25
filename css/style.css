@@ -17,7 +17,7 @@
     padding: 1.4rem 0;
     background-color: #3e54a3;
     width: 100%;
-    color: #e6e9f4;
+    color: white;
     font-size: 1.6rem;
     font-weight: 700;
     display: flex;
@@ -33,7 +33,7 @@
     font-style: bold;
   }
   .top-information a, .icon-case{
-    color: #e6e9f4;
+    color: white;
   }
   .header{
     margin: 0 auto;
