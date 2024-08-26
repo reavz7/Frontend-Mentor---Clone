@@ -218,7 +218,10 @@
   align-content: center;
   border-radius: 10px;
   border: 1px solid rgb(231, 231, 231);
+  display: flex;
+  align-items: center;
 }
+
 .heading-secondary{
   text-transform: uppercase;
   color: black;
@@ -256,4 +259,7 @@
 .step-textbox{
   font-size: 2rem;
   line-height: 1.2;
+}
+.how-it-works-img img{
+  width: 100%;
 }
