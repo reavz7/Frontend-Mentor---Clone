@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- STYLES HERE -->
+    
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/general.css">
+
 
     <!-- MAIN FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +26,10 @@
     <!-- IONICONS IMPORT -->
      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <title>Frontend Masters &HorizontalLine; Clone</title>
 </head>
@@ -54,7 +60,8 @@
     </header>
     <main>
         <section class="hero-section">
-            <div class="hero grid grid--2-cols">
+            <div class="hero">
+            <div class="grid grid--2-cols">
                 <div class="hero-textbox">
                     <h1 class="heading-primary">Improve your coding skills by building <br> realistic projects</h1>
                     <p class="hero-description">Our professionally designed challenges help you gain hands-on experience writing HTML, CSS, and JavaScript.
@@ -71,10 +78,54 @@
                     <img class="hero-img" src="img/hero/home-hero.png" alt="">
                 </div>
             </div>
+
+             <div class="hero-recommendations  grid grid--2-cols">
+                <div class="hero-box">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="hero-opinion">I highly recommend Frontend Mentor. Skip the search for project ideas and dive into ready-made 
+                        challenges that help you level up as a developer.
+                    </p>
+                    <img src="img/people-photo/kevin.png" alt="">
+                    <div class="hero-person-info">
+                    <p class="hero-author">Kevin Powell</p>
+                    <p class="hero-author-description">Web Developer & YouTuber</p>
+                    </div>
+                </div>
+                <div class="hero-box">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="hero-opinion">Frontend Mentor is a win-win. You can sharpen your skills building websites and add finished projects 
+                        to your portfolio to help land a job!
+                    </p>
+                    <img src="img/people-photo/jessica-chan.png" alt="">
+                    <div class="hero-person-info">
+                    <p class="hero-author">Jessica Chan</p>
+                    <p class="hero-author-description">Web Developer & YouTuber</p>
+                    </div>
+                   
+                </div>
+             </div>
+            </div>
         </section>
-
-
-
+        <section class="featured">
+            <div class="featured-section container">
+                <h2>As featured on...</h2>
+                <a href="#" class="featured-link">
+                    <div class="featured-link-block">
+                        <img src="img/logos/logo-css-tricks.jpg" alt="" class="featured-img">
+                    </div>
+                </a>
+                <a href="#" class="featured-link">
+                    <div class="featured-link-block">
+                        <img src="img/logos/logo-stack-overflow.jpg" alt="">
+                    </div>
+                </a>
+                <a href="#" class="featured-link">
+                    <div class="featured-link-block">
+                        <img src="img/logos/logo-product-hunt.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+        </section>
 
     </main>
 

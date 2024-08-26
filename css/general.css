@@ -5,17 +5,17 @@ ORIGINAL SITE BY EXTENSION IN VCS Color Picker */
 
 /* CONTAINER */
 .container{
-        max-width: 120rem;
-        margin: 0 auto;
-        padding: 0 3.2rem;
-  }
+      max-width: 120rem;
+      margin: 0 auto;
+      padding: 0 3.2rem;
+    }
 
 
   /* grid classes */
 .grid{
       display: grid;
       row-gap: 9.6rem;
-      column-gap: 6.4rem;
+      column-gap: 3.4rem;
       margin-bottom: 9.6rem;
 }
 
