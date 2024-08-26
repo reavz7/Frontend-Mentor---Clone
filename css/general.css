@@ -8,10 +8,16 @@ ORIGINAL SITE BY EXTENSION IN VCS Color Picker */
       max-width: 120rem;
       margin: 0 auto;
       padding: 0 3.2rem;
-      padding-bottom: 9.2rem;
+      padding-bottom: 12.2rem;
     }
 
 
+    .container-home{
+      max-width: 120rem;
+      margin: 0 auto;
+      padding: 0;
+      padding-bottom: 9.2rem;
+    }
   /* grid classes */
 .grid{
       display: grid;
@@ -19,6 +25,13 @@ ORIGINAL SITE BY EXTENSION IN VCS Color Picker */
       column-gap: 3.4rem;
       margin-bottom: 9.6rem;
 }
+.grid-home{
+      display: grid;
+      row-gap: 3.6rem;
+      column-gap: 14.4rem;
+      margin-bottom: 9.6rem;
+}
+
 
 .grid:not(:last-child){
       margin-bottom: 9.6rem;
