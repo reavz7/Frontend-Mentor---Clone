@@ -26,6 +26,7 @@
     <!-- IONICONS IMPORT -->
      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
     
     <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -190,47 +191,41 @@
         </section>
         <section class="section-how-it-works">
             <div class="how-it-works container grid grid--2-cols">
-                <div class="how-it-works-text"> 
+                <div class="how-it-works-text">
                     <h4>How it works</h4>
                     <div class="detail">
-                        <details>
+                        <details id="detail-1">
                             <summary>Choose your challenge</summary>
-                            <p>Browse our collection of professionally designed projects.
-                                 Pick one that suits the level you’re currently at.</p>
-                           
+                            <p>Browse our collection of professionally designed projects. Pick one that suits the level you’re currently at.</p>
                         </details>
                     </div>
                     <div class="detail">
-                        <details>
+                        <details id="detail-2">
                             <summary>Code the design</summary>
-                            <p>Each project comes with all files included. This means you can focus on coding the project 
-                                using the design as a reference.</p>
+                            <p>Each project comes with all files included. This means you can focus on coding the project using the design as a reference.</p>
                         </details>
                     </div>
                     <div class="detail">
-                        <details>
+                        <details id="detail-3">
                             <summary>Submit your solution</summary>
-                            <p>Get feedback from the community about your code and see how close you got 
-                                to the design.</p>
+                            <p>Get feedback from the community about your code and see how close you got to the design.</p>
                         </details>
                     </div>
                     <div class="detail">
-                        <details>
+                        <details id="detail-4">
                             <summary>Give others feedback</summary>
-                            <p>Reviewing other people’s code is a vital part of being a developer. 
-                                Practice giving code reviews and help others improve.</p>
+                            <p>Reviewing other people’s code is a vital part of being a developer. Practice giving code reviews and help others improve.</p>
                         </details>
                     </div>
                 </div>
                 <div class="how-it-works-img">
-                    <!-- 
-                    <img id="img-1" src="img/how-it-works/home-how-it-works-1.png" alt="">
+                    <img id="img-1" src="img/how-it-works/home-how-it-works-1.png" alt="" class="active">
                     <img id="img-2" src="img/how-it-works/home-how-it-works-2.png" alt="">
-                    <img id="img3" src="img/how-it-works/home-how-it-works-3.png" alt="">
-                    <img id="img4" src="img/how-it-works/home-how-it-works-4.png" alt="">
-                     -->
+                    <img id="img-3" src="img/how-it-works/home-how-it-works-3.png" alt="">
+                    <img id="img-4" src="img/how-it-works/home-how-it-works-4.png" alt="">
                 </div>
             </div>
+            
         </section>
 
     </main>
