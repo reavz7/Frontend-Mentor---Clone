@@ -266,11 +266,47 @@
 
 .how-it-works-img img {
   display: none; 
-  width: 100%;
+  width: 120%;
 }
 
 .how-it-works-img img.active {
   display: block; 
-  width: 100%;
+  width: 120%;
+}
+.how-it-works-text{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/* Style for the details container */
+.detail {
+  padding: 4rem;
+  background-color: white;
+  border-radius: 8px;
 }
 
+/* Style for the summary text */
+.detail summary {
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 1.2;
+  cursor: pointer;
+  color: black; /* Default color */
+}
+
+.paragraph-details{
+  font-size: 1.4rem;
+}
+.heading-how-it-works{
+  font-size: 4.4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  color: black;
+}
+.how-it-works{
+  display: flex;
+  align-items: center;
+}
+.test{
+  margin-bottom: 2rem;
+}
