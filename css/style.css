@@ -266,12 +266,12 @@
 
 .how-it-works-img img {
   display: none; 
-  width: 120%;
+width: 80rem;
+height: 80rem;
 }
 
 .how-it-works-img img.active {
-  display: block; 
-  width: 120%;
+ display: block;
 }
 .how-it-works-text{
   display: flex;
@@ -280,10 +280,15 @@
 }
 /* Style for the details container */
 .detail {
-  padding: 4rem;
+  width: 60rem;
+  padding: 1rem;
+  height: 8rem;
   background-color: white;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
 }
+
 
 /* Style for the summary text */
 .detail summary {
@@ -305,8 +310,7 @@
 }
 .how-it-works{
   display: flex;
-  align-items: center;
+  align-items: center
 }
-.test{
-  margin-bottom: 2rem;
+#detail-1{
 }
