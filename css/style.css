@@ -297,13 +297,6 @@ height: 70rem;
 }
 
 
-
-
-/* asdasdasdasd */
-
-
-
-
 .detail {
   position: relative;
   padding: 3rem;
@@ -357,7 +350,6 @@ summary {
   display: block;
 }
 
-/* Initialize counter for the steps */
 .how-it-works-text {
   counter-reset: step-counter;
 }
