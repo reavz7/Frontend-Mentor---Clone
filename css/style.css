@@ -311,3 +311,8 @@ height: 70rem;
   display: flex;
   align-items: center
 }
+
+.section-how-it-works{
+  background-color: #f0f4f4;
+  border-radius: 50px;
+}
