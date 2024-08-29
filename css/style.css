@@ -278,7 +278,7 @@ height: 70rem;
   flex-direction: column;
   gap: 2rem;
 }
-/* Style for the details container */
+
 .detail {
   width: 60rem;
   padding: 1rem;
@@ -290,13 +290,12 @@ height: 70rem;
 }
 
 
-/* Style for the summary text */
 .detail summary {
   font-size: 2.2rem;
   font-weight: 500;
   letter-spacing: 1.2;
   cursor: pointer;
-  color: black; /* Default color */
+  color: black;
 }
 
 .paragraph-details{
@@ -311,6 +310,4 @@ height: 70rem;
 .how-it-works{
   display: flex;
   align-items: center
-}
-#detail-1{
 }
