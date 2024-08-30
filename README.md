@@ -4,4 +4,4 @@ Clone of popular frontend mentor site in html css
 
 
 >It's a side project at the moment
-because Im focusing on javascript course now
+because Im focusing on javascript course
